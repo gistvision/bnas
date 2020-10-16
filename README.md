@@ -1,6 +1,6 @@
 # Learning Architectures for Binary Networks
 
-An Pytorch Implementation of the paper [Learning Architectures for Binary Networks](https://arxiv.org/abs/2002.06963) (*BNAS*) (ECCV 2020 - To appear)<br>
+An Pytorch Implementation of the paper [Learning Architectures for Binary Networks](https://arxiv.org/abs/2002.06963) (*BNAS*) (ECCV 2020)<br>
 If you find any part of our code useful for your research, consider citing our paper.
 
 ```bibtex
