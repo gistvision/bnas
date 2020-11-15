@@ -21,7 +21,7 @@ class BinOp():
         self.target_modules = []
         self.num_skip = args.num_skip
         index = 0
-        for m in model.modules():
+        for n,m in model.named_modules():
             if isinstance(m, nn.Conv2d):
                 index = index + 1
                 if index in self.bin_range and 'res' not in n and index >= (self.num_skip + 1):
